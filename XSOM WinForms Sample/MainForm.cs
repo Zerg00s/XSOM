@@ -12,7 +12,7 @@ using System.Windows.Forms;
 using System.Xml.Linq;
 using XSOM;
 
-namespace o365Auth
+namespace FinFormsSample
 {
     public partial class MainForm : Form
     {

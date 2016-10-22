@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace o365Auth
+namespace FinFormsSample
 {
     public class Constants
     {

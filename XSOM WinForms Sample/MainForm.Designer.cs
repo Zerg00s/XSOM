@@ -1,4 +1,4 @@
-﻿namespace o365Auth
+﻿namespace FinFormsSample
 {
     partial class MainForm
     {

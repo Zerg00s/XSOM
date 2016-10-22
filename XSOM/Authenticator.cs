@@ -15,7 +15,6 @@ using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
-using o365Auth;
 
 namespace XSOM
 {

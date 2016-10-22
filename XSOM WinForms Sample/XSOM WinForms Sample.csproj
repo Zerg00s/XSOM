@@ -7,8 +7,8 @@
     <ProjectGuid>{4E7786AC-7E3B-465F-9559-B0CD431ECCA1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>o365Auth</RootNamespace>
-    <AssemblyName>o365Auth</AssemblyName>
+    <RootNamespace>XSOM.WinForms.Sample</RootNamespace>
+    <AssemblyName>XSOM.WinForms.Sample</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -75,6 +75,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

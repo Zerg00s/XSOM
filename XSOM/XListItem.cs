@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.XPath;
 
-namespace o365Auth
+namespace XSOM
 {
     public class XListItem: Dictionary<string, object>
     {

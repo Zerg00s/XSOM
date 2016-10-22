@@ -11,7 +11,7 @@ using System.Xml.Linq;
 using System.Xml.XPath;
 using System.Text;
 
-namespace o365Auth
+namespace XSOM
 {
     public class XFile : Dictionary<string, object>
     {
