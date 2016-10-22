@@ -29,7 +29,7 @@ namespace FinFormsSample
         private void MainForm_Load(object sender, EventArgs e)
         {
 
-        }
+        } 
 
         private async void btnGetRealmInfo_Click(object sender, EventArgs e)
         {
