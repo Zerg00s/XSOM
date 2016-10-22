@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace o365App
+namespace XSOM
 {
     public class Constants
     {

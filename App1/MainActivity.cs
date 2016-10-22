@@ -11,7 +11,6 @@ using System.IO;
 using System.Xml.Linq;
 using System.Data;
 using System.Linq;
-using O365App;
 using Android.Graphics;
 using Android.Provider;
 using Uri = Android.Net.Uri;
@@ -20,7 +19,7 @@ using Android.Content.PM;
 using Java.IO;
 using o365Auth;
 
-namespace o365App
+namespace XSOM
 {
     public static class App
     {

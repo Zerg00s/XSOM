@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using Android.Graphics;
 
-namespace O365App
+namespace XSOM
 {
     public static class BitmapHelpers
     {

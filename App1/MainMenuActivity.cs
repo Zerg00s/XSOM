@@ -10,7 +10,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 
-namespace O365App
+namespace XSOM
 {
     [Activity(Label = "LCBO App. Main menu", Icon = "@drawable/icon")]
     public class MainMenuActivity : Activity

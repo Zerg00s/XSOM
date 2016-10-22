@@ -11,7 +11,7 @@ using Android.Views;
 using Android.Widget;
 using o365Auth;
 
-namespace O365App.Adapters
+namespace XSOM.Adapters
 {
     public class CheckoutsAdapter: BaseAdapter<XListItem>
     {

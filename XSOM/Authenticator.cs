@@ -12,17 +12,13 @@ using Android.Widget;
 using System.Xml.Linq;
 using System.IO;
 using System.Net;
-using o365App;
 using System.Net.Http;
-using O365App;
 using System.Threading.Tasks;
 using System.Net.Http.Headers;
 using o365Auth;
 
-namespace o365App
+namespace XSOM
 {
-
-
     public class Authenticator
     {
         public static string GetUserRealmURL = "https://login.microsoftonline.com/GetUserRealm.srf";

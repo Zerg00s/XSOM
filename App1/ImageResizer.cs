@@ -11,7 +11,7 @@ using Android.Widget;
 using Android.Graphics;
 using System.IO;
 
-namespace O365App
+namespace XSOM
 {
     public static class ImageResizer
     {

@@ -10,6 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
+using XSOM;
 
 namespace o365Auth
 {
@@ -19,7 +20,6 @@ namespace o365Auth
         {
             InitializeComponent();
         }
-
 
         static string siteUrl = "https://zergoos.sharepoint.com/";
         static string Login = "Zergoos@Zergoos.onmicrosoft.com";
@@ -34,22 +34,18 @@ namespace o365Auth
         private async void btnGetRealmInfo_Click(object sender, EventArgs e)
         {
             Authenticator aithenticator = new Authenticator(Login, password, siteUrl);
-            await aithenticator.InitializeAuth(); 
-            XContext context = await aithenticator.GetCookiesAndDigest();
-
+            await aithenticator.InitializeAuth();
+				XContext context = await aithenticator.GetCookiesAndDigest();
             XUser user = await context.GetCurrentUser();
-
             XList list = await context.GetList("Tests");
 
             //XListItem listItem = await list.GetItemById(23);
-
             //string caml = "<Where><Eq><FieldRef Name='Title' /><Value Type='Text'>TestUpdated</Value></Eq></Where>";
             string currentUserCaml = "<Where><Eq><FieldRef Name='Author' LookupId='True' /><Value Type='Integer'><UserID /></Value></Eq></Where>";
             List<XListItem> listItems = await list.GetItems(currentUserCaml);
             //List<XListItem> listItems = await list.GetItems();
             //await listItems[0].Delete();
             //await listItems[0].Recycle();
-
             //XListItem item = listItems[0];
             //item["Title"] = "new title";
             //await item.Update();

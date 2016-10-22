@@ -1,10 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "O365App", "App1\O365App.csproj", "{392CECF5-958B-48D5-A31B-C7DA154B50FA}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "o365Auth WinForms", "o365Auth\o365Auth WinForms.csproj", "{4E7786AC-7E3B-465F-9559-B0CD431ECCA1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XSOM", "XSOM\XSOM.csproj", "{B4B22C65-B927-485A-B048-68F740976ACD}"
@@ -15,12 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{392CECF5-958B-48D5-A31B-C7DA154B50FA}.Release|Any CPU.Deploy.0 = Release|Any CPU
 		{4E7786AC-7E3B-465F-9559-B0CD431ECCA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4E7786AC-7E3B-465F-9559-B0CD431ECCA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E7786AC-7E3B-465F-9559-B0CD431ECCA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
