@@ -1,4 +1,4 @@
-# XSOM
+# XSOM - Authentication via SharePoint REST API for С# + Helper classes
 ## Wrapper Library for SharePoint REST operations
 
 ### Projects:
